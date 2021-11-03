@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall -g -gdwarf-3 -std=c++11#
+CFLAGS=-Wall -g -gdwarf-3 -std=c++11 -rdynamic#
 JEMALLOC=deps/jemalloc-5.1.0
 NNMSG=deps/nng-1.3.2
 BOOST=deps/boost_1_67_0
